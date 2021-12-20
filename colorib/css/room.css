@@ -1,0 +1,290 @@
+@import url('https://fonts.googleapis.com/css2?family=Estonia&family=Great+Vibes&family=Playfair+Display:wght@400;500;600;700&family=Roboto:wght@100;300;400;500;700&family=Work+Sans:wght@100;200;300;400;500;600;700;800&family=Yellowtail&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+}
+
+/* Contact Up Start */
+	
+	.bg{
+		background: rgba(0, 0, 0, 0.4) url(../image/bg.png);
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-blend-mode: darken;
+		background-position: center;
+	}
+	.content{
+		width: 100%;
+	}
+	.container{
+		width: 1200px;
+		margin: auto;
+	}
+	.navbar{
+		display: flex;
+		justify-content: space-between;
+		width: 1000px;
+		margin-left: 100px;
+	}
+	.logo h1{
+		font-family: "Playfair Display";
+		color: #FFFFFF;
+		margin-left: -60px;
+		margin-top: 33px;
+		font-weight: 100;
+	}
+	.menu{
+		margin-top: 40px;
+		padding-top: 10px;
+		margin-right: -60px;
+	}
+	.menu ul li{
+		list-style: none;
+		display: inline-block;
+		margin-left: 18px;
+		margin-right: 18px;
+		text-transform: uppercase;
+		letter-spacing: 1px;
+		font-size: 13px;
+		font-weight: bold;
+		font-family: 'work sans';
+	}
+	.menu ul li a{
+		color: #ffffff99;
+		text-decoration: none;
+	}
+	.menu ul li a:hover{
+		color: #fff;
+		transition: 0.5s;
+	}
+	a:active{
+		color: #fff;
+	}
+	.mdl{
+		margin-top: 190px;
+		padding: 0px 15px;
+		text-align: center;
+		color: #fff;
+	}
+	.mdl p{
+		padding: 7px 10px;
+		font-size: 12px;
+		text-transform: uppercase;
+		letter-spacing: .2em;
+		font-family: "work sans","roboto";
+
+	}
+	.mdl h1{
+		font-family: "Playfair Display";
+		font-size: 64px;
+		margin-top: 20px;
+		padding-bottom: 280px;
+	}
+
+/* Contact Up End */
+
+
+
+
+
+/* Rooms Start */
+
+
+	.bgstaff{
+	background-color: rgb(248, 249, 250);
+	}
+	.bgstaff h1{
+		font-family: "playfair display";
+		font-size: 40px;
+		font-weight: 400;
+	}
+	.gallery{
+		display: grid;
+		grid-template-columns: repeat(3, auto);
+		margin-left: 100px;
+		margin-right: 50px;
+		margin-top: 120px;
+	}
+	.box{
+		height: 350px;
+		width: 350px;
+		background-color: white;
+		margin-bottom: 60px;
+	}
+	.box img{
+		height: auto;
+		max-width: 100%;
+	}
+	.box h3{
+		font-size: 20px;
+		font-family: "Work Sans";
+		font-weight: 400;
+		text-align: center;
+		margin-top: 20px;
+	}
+	.box p{
+	color: rgb(92, 120, 147);
+	font-size: 16px;
+	font-family: "Work Sans";
+	font-weight: 400;
+	margin-top: 10px;
+	text-align: center;
+	}
+	
+/* Rooms End */
+
+
+
+
+
+/* Footer Section Start */
+
+	.foot{
+		background-color: rgba(0,0,0,.8);
+		padding-top: 60px;
+	}
+	.navall{
+		display: flex;
+		justify-content: space-between;
+		margin-left: 50px;
+		margin-right: 50px;
+	}
+	.about1{
+		flex-basis: 30%;
+	}
+	.about1 h3{
+		display: block;
+		font-size: 25px;
+		color: white;
+		margin-bottom: 25px;
+		font-weight: 200;
+	}
+	.about1 p{
+		line-height: 1.7;
+		font-weight: 400;
+		font-size: 1.2rem;
+		margin-top: 0;
+		margin-bottom: 1rem;
+		color: #FFFFFF80;
+	}
+	.btn{
+		width: 120px;
+		height: 40px;
+		font-size: 20px;
+		border: none;
+		border-radius: 30px;
+		background-color: #F23A2E;
+		color: white;
+		cursor: pointer;
+		font-size: 16px;
+	}
+	.btn:hover{
+		background-color: green;
+		transition: 1s;
+	}
+	.link1{
+		flex-basis: 35%;
+	}
+	.link1 h3{
+		display: block;
+		font-size: 25px;
+		color: white;
+		margin-bottom: 25px;
+		margin-left: 70px;
+		margin-right: 50px;
+		font-weight: 200;
+	}
+	.link1 ul li{
+		list-style: none;
+		margin-left: 70px;
+	}
+	.link1 ul li a{
+		text-decoration: none;
+		line-height: 2.2;
+		font-weight: 500;
+		font-size: 1.2rem;
+		margin-top: 0;
+		margin-bottom: 1rem;
+		color: #FFFFFF50;
+	}
+	.link1 ul li a:hover{
+		color: white;
+		transition: 1s;
+	}
+	.minister{
+		flex-basis: 20%;
+	}
+	.minister h3{
+		display: block;
+		font-size: 25px;
+		color: white;
+		margin-bottom: 20px;
+		font-weight: 200;
+	}
+	.minister ul li{
+		list-style: none;
+	}
+	.minister ul li a{
+		text-decoration: none;
+		line-height: 2.2;
+		font-weight: 500;
+		font-size: 1.2rem;
+		margin-top: 0;
+		margin-bottom: 1rem;
+		color: #FFFFFF50;
+	}
+	.minister ul li a:hover{
+		color: white;
+		transition: 1s;
+	}
+
+	.icon{
+		flex-basis: 20%;
+	}
+	.icon ul{
+		list-style: none;
+		display: flex;
+		margin-left: 50px;
+		padding-top: 8px;
+	}
+	.icon ul a{
+		text-decoration: none;
+		font-size: 18px;
+		color: #FFFFFF30;
+	}
+	.icon ul li{
+		letter-spacing: 20px;
+	}
+	.icon ul li a:hover{
+		color: white;
+		transition: 0.5s;
+		font-size: 22px
+	}
+
+	.icon h3{
+		display: block;
+		font-size: 25px;
+		color: white;
+		margin-bottom: 25px;
+		margin-left: 50px;
+		font-weight: 200;
+	}
+	.footer{
+		margin-top: 100px;
+		padding-bottom: 60px;
+		font-weight: 400;
+		font-size: 1.2rem;
+		color: #FFFFFF80;
+		text-align: center;
+	}
+	.footer a:hover{
+		color: white;
+	}
+
+
+/* Footer Section End */
+
+
+
+
+

@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&family=Yellowtail&display=swap');
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	font-family: 'poppins' sans-serif;
+	text-align: center;
+	color: #fff;
+	line-height: 1.5;
+	letter-spacing: 1px;
+}
+.fullbody{
+	min-height: 100vh;
+	width: 100%;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url('img/bg4.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.testi{
+	padding: 25px 220px;
+}
+article h1{
+	font-size: 40px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+article h1:after{
+	content: "";
+	height: 5px;
+	width: 150px;
+	background-color: #fff;
+	display: block;
+	margin: auto;
+	letter-spacing: 1.5px;
+}
+article img{
+	height: 150px;
+	width: 150px;
+	border: 2px solid #fff;
+	border-radius: 50%;
+	margin-top: 30px;
+}
+blockquote{
+	font-family: sans-serif;
+	font-size: 20px;
+	margin-top: 15px;
+	text-align: center;
+}
+article h5{
+	text-transform: uppercase;
+	font-size: 27px;
+	margin-top: 30px;
+	letter-spacing: 1.5;
+	font-family: Yellowtail;
+}
+article p{
+	font-size: 20px;
+	margin-top: 20px;
+	color: #FE8F8F;
+}
+a:hover{
+	color: greenyellow;
+	opacity: 0.6;
+	font-weight: bold;
+}
