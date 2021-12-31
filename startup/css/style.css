@@ -260,9 +260,6 @@ bottom: -10px;
 .gallery{
     padding: 70px 0px;
 }
-/*.g1img{
-    margin-top: -2px;
-}*/
 .g-design{
     position: relative;
     overflow: hidden;
@@ -486,12 +483,9 @@ bottom: -10px;
     background-blend-mode: saturation;
     background-color: rgba(9, 9, 9, 0.6);
 }
-.testi img{
-    width: 8%;
-}
+
 .my img{
     border-radius: 50%;
-    width: 50px;
 }
 .testi p{
     color: #fff;
